@@ -20,7 +20,7 @@ compile-flexible-config:
         -e FC_PARTIALS=/etc/krakend/partials \
         -e FC_TEMPLATES=/etc/krakend/templates \
         -e FC_OUT=/etc/krakend/krakend-flexible-config.compiled.json \
-        krakend:2.12 \
+        krakend \
         check -c krakend-flexible-config.tmpl
 
 elastic:
